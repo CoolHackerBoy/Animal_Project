@@ -1,25 +1,17 @@
-$(document).ready(function(){
-	alert('joshua');
+$(document).on('click','button#infoButton',function(){
+	window.location="info.html";
+});
+
+$(document).on('click','button#gameButton',function(){
+	window.location="game.html";
+});
+
+$(document).on('click','button#creditButton',function(){
+	window.location="credit.html";
 });
 
 
-var animation=function(){
-	requestAnimationFrame(animation);
-	if(keyboard.up){
-		console.log('up')
-	}
-	if(keyboard.down){
-		console.log('down')
-	
-	}
-	if(keyboard.left){
-		console.log('left')
-	
-	}
-	if(keyboard.right){
-		console.log('right')
-		
-	}
-}
 
-animation();
+$(document).ready(function(){
+	
+});

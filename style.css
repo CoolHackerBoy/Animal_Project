@@ -1,3 +1,13 @@
 body{
-	background-color:blue;
+}
+button{
+	cursor: pointer;
+}
+div#animalPick{
+	display: flex;
+	height: 100%;
+}
+div#animalPick button{
+	flex-grow: 1;
+	
 }
