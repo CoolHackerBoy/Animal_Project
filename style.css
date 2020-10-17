@@ -2,7 +2,13 @@
 	font-family: 'Sansita Swashed', cursive;
 }
 body{
-	background-color: green;
+	background: rgb(30,125,43);
+	background: linear-gradient(13deg, rgba(30,125,43,1) 21%, rgba(33,205,108,1) 76%);
+}
+div#homepage{
+	display: flex;
+	height: 100%;
+	justify-content: space-evenly;
 }
 button{
 	cursor: pointer;
@@ -11,6 +17,7 @@ div#information{
 	display: inline-block;
 	border: 5px solid black;
 	background-color: white;
+	width: 30%;
 }
 div#information p{
 	font-size: 20px;
@@ -18,14 +25,13 @@ div#information p{
 div#buttonPick button{
 	margin: 10px auto;
 	font-size: 20px;
-}
-div#pictures{
-	display: inline-block;
-	position: absolute;
-	right: 1px
+	display: block;
 }
 div#buttonPick{
 	text-align: center;
+}
+div#pictures{
+	display: inline-block;
 }
 button#button1{
 	background: url("Rhino2.jpeg");
@@ -49,6 +55,16 @@ div#animalPick button{
 	background-repeat: no-repeat;
 	background-position: center;
 	filter: blur(10px);
+}
+div#creditLinks{
+	text-align: center;
+	margin: 10px auto;
+}
+div#creditLinks button{
+	text-align: center;
+	margin: 10px auto;
+	display:block;
+	font-size: 30px;
 }
 h1{
 	text-align: center;
