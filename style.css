@@ -1,7 +1,43 @@
+*{
+	font-family: 'Sansita Swashed', cursive;
+}
 body{
+	background-color: green;
 }
 button{
 	cursor: pointer;
+}
+div#information{
+	display: inline-block;
+	border: 5px solid black;
+	background-color: white;
+}
+div#information p{
+	font-size: 20px;
+}
+div#buttonPick button{
+	margin: 10px auto;
+	font-size: 20px;
+}
+div#pictures{
+	display: inline-block;
+	position: absolute;
+	right: 1px
+}
+div#buttonPick{
+	text-align: center;
+}
+button#button1{
+	background: url("Rhino2.jpeg");
+}
+button#button2{
+	background: url("whale.jpg");
+}
+button#button3{
+	background: url("polarBear.jpeg");
+}
+div#animalPick button:hover{
+	filter: blur(0px);
 }
 div#animalPick{
 	display: flex;
@@ -9,5 +45,11 @@ div#animalPick{
 }
 div#animalPick button{
 	flex-grow: 1;
-	
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: blur(10px);
+}
+h1{
+	text-align: center;
 }
