@@ -56,6 +56,18 @@ div#animalPick button{
 	background-position: center;
 	filter: blur(10px);
 }
+div#rhino{
+	text-align: center;
+	font-size: 20px;
+}
+div#greyWhale{
+	text-align: center;
+	font-size: 20px;
+}
+div#polarBear{
+	text-align: center;
+	font-size: 20px;
+}
 div#creditLinks{
 	text-align: center;
 	margin: 10px auto;
