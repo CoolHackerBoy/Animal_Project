@@ -4,6 +4,7 @@
 body{
 	background: rgb(30,125,43);
 	background: linear-gradient(13deg, rgba(30,125,43,1) 21%, rgba(33,205,108,1) 76%);
+	overflow:hidden;
 }
 div#homepage{
 	display: flex;
@@ -58,15 +59,15 @@ div#animalPick button{
 }
 div#rhino{
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
 }
 div#greyWhale{
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
 }
 div#polarBear{
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
 }
 div#creditLinks{
 	text-align: center;
